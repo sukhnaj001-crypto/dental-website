@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Smart Dental Scanner Mouthpiece</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f5fbff;
+color:#333;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+}
+
+.logo{
+font-size:24px;
+font-weight:700;
+color:#0077ff;
+}
+
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+.hero{
+height:100vh;
+background:linear-gradient(135deg,#0077ff,#00c6ff);
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:0 10%;
+color:white;
+}
+
+.hero-content h1{
+font-size:4rem;
+margin-bottom:20px;
+}
+
+.hero-content p{
+font-size:1.2rem;
+max-width:800px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:14px 28px;
+background:white;
+color:#0077ff;
+text-decoration:none;
+border-radius:30px;
+font-weight:600;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+section{
+padding:90px 10%;
+}
+
+.section-title{
+text-align:center;
+color:#0077ff;
+font-size:2.5rem;
+margin-bottom:50px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#0077ff;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.feature-box{
+background:white;
+padding:25px;
+border-left:5px solid #0077ff;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.process{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+
+.step{
+background:white;
+padding:25px;
+text-align:center;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.step span{
+display:inline-block;
+width:50px;
+height:50px;
+line-height:50px;
+border-radius:50%;
+background:#0077ff;
+color:white;
+font-weight:bold;
+margin-bottom:10px;
+}
+
+.comparison{
+overflow-x:auto;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+table th{
+background:#0077ff;
+color:white;
+padding:15px;
+}
+
+table td{
+padding:14px;
+text-align:center;
+border:1px solid #ddd;
+}
+
+.highlight{
+font-weight:bold;
+color:#0077ff;
+}
+
+.why-unique{
+background:linear-gradient(to right,#0077ff,#00c6ff);
+color:white;
+border-radius:20px;
+padding:50px;
+text-align:center;
+}
+
+.business{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.business-card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+footer{
+background:#002244;
+color:white;
+text-align:center;
+padding:40px;
+margin-top:50px;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+font-size:2.5rem;
+}
+
+nav ul{
+display:none;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">DentalAI</div>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#working">Working</a></li>
+<li><a href="#comparison">Comparison</a></li>
+<li><a href="#business">Business Model</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+<div class="hero-content">
+<h1>AI Smart Dental Scanner Mouthpiece</h1>
+
+<p>
+A revolutionary wearable healthcare device that automatically scans teeth and gums,
+detects dental problems using Artificial Intelligence, and generates an instant oral health report.
+</p>
+
+<a href="#about" class="btn">Explore Project</a>
+
+</div>
+</section>
+
+<section id="about">
+
+<h2 class="section-title">Problem Statement</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Limited Access</h3>
+<p>Many people cannot regularly visit dentists due to cost and location barriers.</p>
+</div>
+
+<div class="card">
+<h3>Late Detection</h3>
+<p>Dental problems often remain unnoticed until they become serious.</p>
+</div>
+
+<div class="card">
+<h3>Clinic Dependency</h3>
+<p>Current diagnostic systems require professional equipment and trained operators.</p>
+</div>
+
+<div class="card">
+<h3>No Continuous Monitoring</h3>
+<p>People rarely monitor oral health between dental visits.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="features">
+
+<h2 class="section-title">Key Features</h2>
+
+<div class="features">
+
+<div class="feature-box">
+<h3>🦷 Wearable Mouthpiece</h3>
+<p>Comfortable mouthpiece with built-in miniature cameras and sensors.</p>
+</div>
+
+<div class="feature-box">
+<h3>🤖 AI Analysis</h3>
+<p>Detects cavities, plaque, gum disease, tooth wear, and oral abnormalities.</p>
+</div>
+
+<div class="feature-box">
+<h3>📊 Instant Report</h3>
+<p>Provides detailed oral health reports within minutes.</p>
+</div>
+
+<div class="feature-box">
+<h3>📱 Mobile App Integration</h3>
+<p>Stores reports, health history, and recommendations.</p>
+</div>
+
+<div class="feature-box">
+<h3>📈 Dental Health Score</h3>
+<p>Simple oral health score to monitor improvements over time.</p>
+</div>
+
+<div class="feature-box">
+<h3>☁ Cloud Storage</h3>
+<p>Secure storage and long-term dental health tracking.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="working">
+
+<h2 class="section-title">How It Works</h2>
+
+<div class="process">
+
+<div class="step">
+<span>1</span>
+<h3>Insert</h3>
+<p>Place the mouthpiece inside the mouth.</p>
+</div>
+
+<div class="step">
+<span>2</span>
+<h3>Scan</h3>
+<p>Built-in cameras capture images from all angles.</p>
+</div>
+
+<div class="step">
+<span>3</span>
+<h3>Analyze</h3>
+<p>AI processes oral health information.</p>
+</div>
+
+<div class="step">
+<span>4</span>
+<h3>Report</h3>
+<p>Generate instant dental health report.</p>
+</div>
+
+<div class="step">
+<span>5</span>
+<h3>Connect</h3>
+<p>Consult nearby dentists when needed.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Why This Idea Is Unique</h2>
+
+<div class="why-unique">
+
+<p style="font-size:1.15rem;">
+The AI Smart Dental Scanner Mouthpiece is unique because it combines wearable technology,
+artificial intelligence, automated scanning, and oral health monitoring into a single device.
+Unlike existing dental systems that require clinic visits and professional operation,
+this solution enables users to perform complete oral health assessments at
